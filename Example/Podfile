@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'XMGFMMain_Example' do
+  pod 'XMGFMMain', :path => '../'
+
+  target 'XMGFMMain_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+  end
+end
