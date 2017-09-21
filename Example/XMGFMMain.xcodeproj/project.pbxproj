@@ -24,6 +24,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		CF3244671F73F3D20086E4F8 /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3244641F73F3D10086E4F8 /* TestVC2.m */; };
+		CF3244681F73F3D20086E4F8 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3244651F73F3D20086E4F8 /* TestVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0AC104CDD0F48A72A25F5937 /* XMGFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMGFMMain.podspec; path = ../XMGFMMain.podspec; sourceTree = "<group>"; };
+		0AC104CDD0F48A72A25F5937 /* XMGFMMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMGFMMain.podspec; path = ../XMGFMMain.podspec; sourceTree = "<group>"; };
 		144E2C193980ECA63C92B778 /* Pods_XMGFMMain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMGFMMain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EB1F10D1669DC82151F24A6 /* Pods-XMGFMMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMMain_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMMain_Example/Pods-XMGFMMain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XMGFMMain_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMGFMMain_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +66,12 @@
 		7D6738240E8D05AC844087C3 /* Pods_XMGFMMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMGFMMain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8416C4649B507DFB7D7EF30D /* Pods-XMGFMMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMMain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMMain_Tests/Pods-XMGFMMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D0B4F1D1B93B8EF0A5F914E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		E90F06BD07810F505DAD3D93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CF3244631F73F3D10086E4F8 /* TestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		CF3244641F73F3D10086E4F8 /* TestVC2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		CF3244651F73F3D20086E4F8 /* TestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		CF3244661F73F3D20086E4F8 /* TestVC2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		D0B4F1D1B93B8EF0A5F914E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E90F06BD07810F505DAD3D93 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EABFC07965EE039069A2A04D /* Pods-XMGFMMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMGFMMain_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMGFMMain_Example/Pods-XMGFMMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +144,10 @@
 				6003F5A5195388D20070C39A /* XMGViewController.h */,
 				6003F5A6195388D20070C39A /* XMGViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				CF3244631F73F3D10086E4F8 /* TestVC.h */,
+				CF3244651F73F3D20086E4F8 /* TestVC.m */,
+				CF3244661F73F3D20086E4F8 /* TestVC2.h */,
+				CF3244641F73F3D10086E4F8 /* TestVC2.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -340,10 +350,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-XMGFMMain_Example/Pods-XMGFMMain_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XMGFMBase/XMGFMBase.framework",
 				"${BUILT_PRODUCTS_DIR}/XMGFMMain/XMGFMMain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMGFMBase.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XMGFMMain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,6 +427,8 @@
 				6003F59E195388D20070C39A /* XMGAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XMGViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				CF3244681F73F3D20086E4F8 /* TestVC.m in Sources */,
+				CF3244671F73F3D20086E4F8 /* TestVC2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

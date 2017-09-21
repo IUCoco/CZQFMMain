@@ -1,0 +1,32 @@
+{
+  "name": "XMGFMMain",
+  "version": "0.1.0",
+  "summary": "A short description of XMGFMMain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/IUCoco/XMGFMMain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "IUCoco": "czq1157111246@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/IUCoco/XMGFMMain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XMGFMMain/Classes/**/*",
+  "resource_bundles": {
+    "XMGFMMain": [
+      "XMGFMMain/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "XMGFMBase/Category": [
+
+    ]
+  }
+}
